@@ -9,7 +9,7 @@ public class Main {
         arrayList.add("Алла Фёдоровна");
         arrayList.add("Василий Иванович");
         System.out.println(arrayList);
-        System.out.println("Индекс самого лучшего учителя " + arrayList.get(1));
-        System.out.println("Индекс самого не очень :) " + arrayList.get(0));
+        System.out.println("Индекс самого лучшего учителя " + arrayList.indexOf("Алла Фёдоровна"));
+        System.out.println("Индекс самого не очень :) " + arrayList.indexOf("Раиса Ивановна"));
     }
 }
